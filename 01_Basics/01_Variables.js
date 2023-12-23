@@ -22,7 +22,7 @@ console.log();
 console.log('*********** Printing Values in tabular format ***********')
 console.table([accountId, accountEmail, accountPassword, accountCity, accountStatus]);
 
-/*
+/*  NOTES
     1. Prefer not to use var because of issue in block scope and functional scope.
     2. You can declare a variable without explicitly writing var or let. But this is a very bad practice.
     3. Variable without value assigned is undefined in Js. for ex :- accountStatus
