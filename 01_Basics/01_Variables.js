@@ -1,3 +1,4 @@
+// Declaring and Initialize variables
 const accountId = 2248;
 let accountEmail = "ersabin123@gmail.com";
 var accountPassword = "aa11BB22cc";
