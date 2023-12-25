@@ -1,4 +1,4 @@
-/******Primitive Types**********
+/******Primitive Types***********
     String
     Number
     Boolean
@@ -6,7 +6,7 @@
     Undefined
     Symbol
     BigInt
-********************************/
+*********************************/
 
 const score = 100;
 const scoreValue = 100.3;
