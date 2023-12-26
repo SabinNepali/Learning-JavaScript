@@ -43,12 +43,12 @@ console.log("The splice method does make changes to original array");
 
 
 
-/************************NOTES********************************
+/************************NOTES*********************************
  
     * Array in JS is resizeable.
     * Array in JS can hold elements of different data types.
     * The Slice method doesn't make changes to original array.
     * The Splice method does make changes to original array.
     
-**************************************************************/
+***************************************************************/
 
