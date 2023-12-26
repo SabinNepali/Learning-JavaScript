@@ -15,7 +15,7 @@ myArr.push(6);          // push method Adds an element at the last
 myArr.push(7);
 myArr.pop();            // pop methods removes last element
 
-myArr.unshift(9);           // nshift method Adds an element at the first index right shifts other elements
+myArr.unshift(9);           // unshift method Adds an element at the first index right shifts other elements
 myArr.shift();              // shift method removes first element and left shifts all other elements
 
 console.log(myArr.includes(9));     // includes method tells if the element is present in the array or not
