@@ -1,4 +1,4 @@
-/***************ARRAYS*******************/
+/********************************************ARRAYS PART 01***********************************************/
 
 // Array
 const myArr = [0,1,2,3,4,5];
@@ -40,10 +40,7 @@ console.log("Let's splice countries: " + countries.splice(0,2));    // Gives ele
 console.log("countries after splice: " + countries);
 console.log("The splice method does make changes to original array");
 
-
-
-
-/************************NOTES*********************************
+/************************PART 01 NOTES*********************************
  
     * Array in JS is resizeable.
     * Array in JS can hold elements of different data types.
@@ -52,3 +49,43 @@ console.log("The splice method does make changes to original array");
     
 ***************************************************************/
 
+
+/********************************************ARRAYS PART 02***********************************************/
+
+const marvel_Heroes = ["Thor", "IronMan", "SpiderMan"];
+const dc_Heroes = ["SuperMan", "Flash", "Batman"];
+
+marvel_Heroes.push(dc_Heroes);
+console.log(marvel_Heroes);
+console.log(marvel_Heroes[3][1]);
+
+const allHeroes = marvel_Heroes.concat(dc_Heroes);
+console.log(allHeroes);
+
+const allNewHeroes = [...marvel_Heroes, ...dc_Heroes];
+console.log(allNewHeroes);
+
+const anotherArray = [1,2,3,[4,5,6],7,[6,7,[4,5]]];
+
+const flatArray = anotherArray.flat(Infinity);
+console.log(flatArray);
+
+ 
+console.log(Array.isArray("Sabin"));
+console.log(Array.from("Sabin"));
+console.log(Array.from({name:"Sabin"})); // interesting
+
+let score1 = 100;
+let score2 = 200; 
+let score3 = 300;
+
+console.log(Array.of(score1, score2, score3));
+
+/************************PART 02 NOTES******************************
+ 
+    * push method inserts the provided item into the original
+         array as single element, it modifies the original array.
+    * concat method joins two arrays and creates a copy of it, 
+         it doesn't modify the original array.
+    
+********************************************************************/
