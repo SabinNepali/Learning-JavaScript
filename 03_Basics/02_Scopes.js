@@ -22,7 +22,7 @@ console.log(c);
    be accessed inside the scope where it's declared. In this case, if condition.
  * This will print 100 since a is a global variable and can be accessed from 
    anywhere. Even from that if block. 
- * IN line no. 18, c will be printed even if it's inside the scope because 
+ * In line no. 18, c will be printed even if it's inside the scope because 
    variables declared with var have functional scope rather than block scope.
    This means that regardless of where var is declared within a function, 
    it is hoisted to the top of the function and becomes accessible throughout 
