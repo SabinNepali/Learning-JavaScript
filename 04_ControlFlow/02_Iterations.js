@@ -68,6 +68,37 @@ for (let color of colors) {
 }
 // Output: red, green, blue
 
+
+const codingLanguages = ['C#', 'js', 'Java', 'C', 'CPP'];
+
+codingLanguages.forEach( function (item) {
+    console.log(item);
+})
+
+
+codingLanguages.forEach( (index, item, arr) => {
+    console.log(item, index, arr);
+} )
+
+const myCoding = [
+    {
+        languageName: 'C#',
+        languageFile: '.cs'
+    },
+    {
+        languageName: 'Java',
+        languageFile: 'Java'
+    },
+    {
+        languageName: 'Python',
+        languageFile: '.py'
+    }
+]
+
+myCoding.forEach( (item) => {
+    console.log(item.languageName, item.languageFile);
+} )
+
   
 
 
