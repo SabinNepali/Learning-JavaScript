@@ -6,7 +6,7 @@ accountCity = "Noida"
 let accountStatus;
 
 // Let's try to change the values
-//accountId = 2249; ---> Not allowed since accountId is a const variable   
+//accountId = 2249; ----> Not allowed since accountId is a const variable   
 accountEmail = "sabin.nepali@cginfinity.com";
 accountPassword = "erSabin@123";
 accountCity = "Delhi"
